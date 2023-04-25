@@ -1,0 +1,263 @@
+.sec1 {
+    width: 100%;
+    height: 87vh;
+    background-color: $pink;
+    margin-top: 20vh;
+    @extend %flex1;
+    @extend %flex;
+    gap: 8vw;
+
+    .div1 {
+        @extend %flex;
+        align-items: flex-start;
+        color: $grey;
+        gap: 3rem;
+
+        .h1 {
+            font-family: $font;
+            font-weight: 500;
+            font-size: 64px;
+        }
+
+        .span1 {
+            text-align: center;
+            font-family: $font1;
+            font-size: 18px;
+        }
+
+        .btn1 {
+            width: 30%;
+            height: 7vh;
+            background-color: $grey;
+            color: white;
+            border: none;
+            font-family: $font1;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+     
+    }
+  
+}
+
+.sec2 {
+    width: 100%;
+    height: 30vh;
+    @extend %flex;
+    @extend %flex1;
+    gap: 5vw;
+
+    .h5 {
+        font-family: $font;
+        font-size: 32px;
+        color: $grey;
+    }
+}
+
+.sec3 {
+    width: 100%;
+    height: 50vh;
+    background-color: $pink;
+    @extend %flex;
+    gap: 2rem;
+    color: $grey;
+
+    .p1 {
+        width: 50%;
+        font-size: 18px;
+        text-align: center;
+        line-height: 25px;
+        font-family: $font1 ;
+    }
+
+    .sp1 {
+        font-family: $font;
+        font-size: 56px;
+        font-weight: 400;
+
+    }
+}
+
+.sec4 {
+    width: 100%;
+    height: 87vh;
+    @extend %flex1;
+    @extend %flex;
+    gap: 8vw;
+
+    .div1 {
+        @extend %flex;
+        align-items: flex-start;
+        color: $grey;
+        gap: 3rem;
+        width: 35%;
+
+        .h1 {
+            font-family: $font;
+            font-weight: 500;
+            font-size: 64px;
+        }
+
+        .span1 {
+            text-align: left;
+            font-family: $font1;
+            font-size: 18px;
+        }
+
+        .btn1 {
+            width: 30%;
+            height: 7vh;
+            background-color: $grey;
+            color: white;
+            border: none;
+            font-family: $font1;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    }
+
+}
+
+.sec5 {
+    width: 100%;
+    height: 120vh;
+    background-color: $pink;
+    padding-top: 15vh;
+
+    .span2 {
+        font-family: $font;
+        font-size: 56px;
+        font-weight: 500;
+        color: $grey;
+        @extend %flex;
+        margin-bottom: 10vh;
+      
+
+
+    }
+
+    .bdiv {
+        @extend %flex1;
+        margin: 0 8rem 0 18rem;
+    }
+
+    .divv1 {
+        width: 100%;
+        height: 40vh;
+        // background-color: red;
+    }
+
+    .divv2 {
+        width: 100%;
+        height: 40vh;
+        // background-color: palevioletred;
+    }
+
+    .bbdiv {
+        @extend %flex1;
+        margin: 0 8rem 0 18rem;
+
+    }
+
+    .divv3 {
+        width: 50%;
+        height: 40vh;
+        // background-color: blue;
+    }
+
+    .divv4 {
+        width: 50%;
+        height: 40vh;
+        // background-color:saddlebrown;
+    }
+
+    .spanu {
+        font-family: $font;
+        font-size: 24px;
+        font-weight: 200;
+        color: $grey;
+        line-height: 30px;
+    }
+
+    .spanu2 {
+        font-family: $font1;
+        font-size: 16px;
+        // font-weight: 200;
+        color: $grey;
+        line-height: 23px;
+    }
+
+}
+
+.sec6 {
+    width: 100%;
+    height: 87vh;
+    @extend %flex1;
+    @extend %flex;
+    gap: 8vw;
+    padding: 0 10vw;
+
+    .div1 {
+        @extend %flex;
+        align-items: flex-start;
+        color: $grey;
+        gap: 3rem;
+
+        .h1 {
+            font-family: $font;
+            font-weight: 500;
+            font-size: 64px;
+        }
+
+        .span1 {
+            text-align: left;
+            font-family: $font1;
+            font-size: 18px;
+        }
+
+        .btn1 {
+            width: 30%;
+            height: 7vh;
+            background-color: $grey;
+            color: white;
+            border: none;
+            font-family: $font1;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    }
+
+}
+
+.secc {
+    width: 100%;
+    height: 87vh;
+    background-color: $pink;
+    @extend %flex;
+    flex-direction: row;
+    gap: 8rem;
+    color: $grey;
+
+    .ad {
+        width: 40%;
+        height: 50%;
+        //   background-color: salmon;
+        @extend %flex;
+        align-items: flex-start;
+        gap: 3vh;
+    }
+
+    p {
+        font-family: $font1;
+        font-size: 16px;
+    }
+
+    .black {
+        font-weight: 700;
+
+        i {
+            font-weight: 400;
+        }
+    }
+}

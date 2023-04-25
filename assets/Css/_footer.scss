@@ -1,0 +1,37 @@
+footer{
+    width: 100%;
+    height: 85vh;
+    @extend %flex;
+    gap: 6vh;
+    font-family: $font1;
+
+    .images{
+        @extend %flex1;
+        justify-content: center;
+        align-items: center;
+        gap: 1vw;
+
+
+        img{
+            width: 16%;
+        }
+    }
+
+    .icons{
+        @extend %flex1;
+        gap: 1.5vw;
+        margin-top: 7vh;
+
+        
+
+        i{
+            font-size: 20px;
+        }
+        
+    }
+
+    a{
+        color: $grey;
+        font-size: 18px ;
+    }
+}
